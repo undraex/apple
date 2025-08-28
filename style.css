@@ -35,7 +35,6 @@
   margin-top: 12px;
   background-image: url(./bg1.png);
   background-size: cover;
-  width: 390px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -88,7 +87,6 @@
   margin-top: 12px;
   background-image: url(./bg2.png);
   background-size: cover;
-  width: 390px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -123,8 +121,25 @@
   margin-top: 12px;
   background-image: url(./bg3.png);
   background-size: cover;
-  width: 390px;
   height: 500px;
   display: flex;
   flex-direction: column;
+}
+.ipad-air{
+  width: 180px;
+  height: 41.86px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.product-tagline{
+  color: #000;
+  font-size: 18px;
+}
+.hello{
+  font-size: 14px;
+  background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 270px;
 }
