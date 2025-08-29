@@ -2,8 +2,8 @@
   margin: 0;
 }
 .flex-center {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -51,9 +51,9 @@
 }
 .button {
   margin-top: 16px;
-  display: flex;
-  justify-content: space-around;
   gap: 12px;
+  display: flex;
+  justify-content: center;
 }
 .button1 {
   width: 110px;
@@ -125,21 +125,167 @@
   display: flex;
   flex-direction: column;
 }
-.ipad-air{
+.ipad-air {
   width: 180px;
   height: 41.86px;
   margin-top: 36px;
   margin-bottom: 12px;
 }
-.product-tagline{
+.product-tagline {
   color: #000;
   font-size: 18px;
 }
-.hello{
+.hello {
   font-size: 14px;
-  background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 270px;
+}
+.bg4 {
+  margin-top: 12px;
+  background-image: url(./bg4.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.airpod {
+  color: #f5f5f7;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.airpod-text {
+  color: #f5f5f7;
+  font-size: 18px;
+  width: 241px;
+  height: 53px;
+  margin: 8px;
+}
+.others3 {
+  margin-top: 220px;
+}
+
+/* @media (min-width: 768px) {
+} */
+
+.bg5 {
+  margin-top: 12px;
+  background-image: url(./bg5.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.p5-garchig {
+  display: flex;
+  flex-direction: row;
+  margin-top: 46px;
+  gap: 4px;
+}
+.watch {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+}
+.series {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+.classic {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.bg6 {
+  margin-top: 12px;
+  background-image: url(./bg6.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.mac {
+  color: #1d1d1f;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 42px;
+}
+.mac-sen {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.bg7 {
+  margin-top: 12px;
+  background-image: url(./bg7.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.bussiness {
+  color: #1d1d1f;
+  font-size: 30px;
+  font-weight: 700;
+  width: 257px;
+  height: 72px;
+  margin-top: 47px;
+}
+.buss-sen {
+  color: #1d1d1f;
+  font-size: 18px;
+  width: 257px;
+  height: 40px;
+  margin-top: 4px;
+}
+.bg8 {
+  margin-top: 12px;
+  background-image: url(./bg8.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.deals {
+  color: #1d1d1f;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  width: 314px;
+  height: 36px;
+  margin-top: 301px;
+}
+.deals-sen {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+  width: 314px;
+  height: 60px;
+}
+.button-deal {
+  width: 126x;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.deal-text {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
 }
