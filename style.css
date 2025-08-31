@@ -289,3 +289,34 @@
   font-size: 14px;
   padding: 8px 16px;
 }
+.bg9{
+  margin-top: 12px;
+  background-image: url(./bg9.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.trade{
+  color: #000;
+font-size: 28px;
+font-weight: 700;
+}
+.p9-garchig{
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  gap: 4px;
+}
+.trade{
+  width: 121px;
+  height: 34px;
+  color: #000;
+font-size: 28px;
+font-weight: 700;
+}
+.get{
+  color: #1D1D1F;
+  font-size: 18px;
+  font-weight: 400;
+}
