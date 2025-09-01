@@ -289,7 +289,7 @@
   font-size: 14px;
   padding: 8px 16px;
 }
-.bg9{
+.bg9 {
   margin-top: 12px;
   background-image: url(./bg9.png);
   background-size: cover;
@@ -297,26 +297,93 @@
   display: flex;
   flex-direction: column;
 }
-.trade{
+.trade {
   color: #000;
-font-size: 28px;
-font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
-.p9-garchig{
+.p9-garchig {
   display: flex;
-  flex-direction: column;
   margin-top: 46px;
   gap: 4px;
+  margin-top: 60px;
 }
-.trade{
+.trade {
   width: 121px;
   height: 34px;
   color: #000;
-font-size: 28px;
-font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
-.get{
-  color: #1D1D1F;
+.get {
+  color: #1d1d1f;
   font-size: 18px;
   font-weight: 400;
+  width: 285px;
+  height: 40px;
+  margin-top: 4px;
+}
+.button-trade {
+  width: 150x;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+  margin-top: 16px;
+}
+.trade-text {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+.scroll {
+  margin-top: 12px;
+  width: 100%;
+  height: 495px;
+  height: 500px;
+  display: flex;
+  overflow: scroll;
+  gap: 16px;
+}
+.dots {
+  margin: 14px;
+  display: flex;
+  justify-self: center;
+}
+.footer {
+  width: 100%;
+  height: 134px;
+  margin-top: 12px;
+  display: flex;
+  overflow: scroll;
+  gap: 6px;
+}
+.sec1 {
+  background: #6529cf;
+  min-width: 238px;
+  /* display: flex;
+  flex-direction: ; */
+}
+.pic1 {
+  width: 114px;
+  height: 114px;
+  padding: 10px 10px 10px 62px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 11px;
+}
+.music {
+  width: 41px;
+  height: 9.67px;
+  margin-top: 105px;
+}
+.pic2 {
+  width: 238px;
+}
+.pic1-text {
+  color: #1d1d1f;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
 }
