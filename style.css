@@ -3,7 +3,6 @@
 }
 .flex-center {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -121,7 +120,6 @@
 }
 
 .bg3 {
-  margin-top: 12px;
   background-image: url(./bg3.png);
   background-size: cover;
   height: 500px;
@@ -156,7 +154,6 @@
   display: none;
 }
 .bg4 {
-  margin-top: 12px;
   background-image: url(./bg4.png);
   background-size: cover;
   height: 500px;
@@ -185,7 +182,6 @@
 }
 
 .bg5 {
-  margin-top: 12px;
   background-image: url(./bg5.png);
   background-size: cover;
   height: 500px;
@@ -218,7 +214,6 @@
   margin-top: 4px;
 }
 .bg6 {
-  margin-top: 12px;
   background-image: url(./bg6.png);
   background-size: cover;
   height: 500px;
@@ -238,7 +233,6 @@
   margin-top: 4px;
 }
 .bg7 {
-  margin-top: 12px;
   background-image: url(./bg7.png);
   background-size: cover;
   height: 500px;
@@ -261,7 +255,6 @@
   margin-top: 4px;
 }
 .bg8 {
-  margin-top: 12px;
   background-image: url(./bg8.png);
   background-size: cover;
   height: 500px;
@@ -296,7 +289,6 @@
   padding: 8px 16px;
 }
 .bg9 {
-  margin-top: 12px;
   background-image: url(./bg9.png);
   background-size: cover;
   height: 500px;
@@ -360,7 +352,6 @@
 }
 .footer {
   width: 100%;
-  height: 134px;
   margin-top: 12px;
   display: flex;
   flex-direction: column;
@@ -421,7 +412,7 @@
   width: 100%;
   height: 216px;
 }
-.desktop-scroll{
+.desktop-scroll {
   display: none;
 }
 
@@ -431,6 +422,28 @@
     background-image: url(./bg1-2.png);
     height: 650px;
   }
+  .ip16pro {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .text {
+    font-size: 22px;
+  }
+  /* .button {
+    display: flex;
+    justify-content: center;
+    padding: 12px 20px;
+  }
+  .button1 {
+    width: 123px;
+    height: 44px;
+  } */
+  .others {
+    margin-top: 60px;
+  }
+  .others2 {
+    margin-top: 60px;
+  }
   .bg2 {
     background-image: url(./bg2-2.png);
     height: 650px;
@@ -438,6 +451,7 @@
   .bg3 {
     background-image: url(./bg3-2.png);
     height: 650px;
+    margin-top: 12px;
   }
   .bg4-5-combo {
     display: flex;
@@ -464,7 +478,6 @@
   .scroll-combo {
     margin-top: 12px;
     width: 100%px;
-    height: 368px;
     display: flex;
     overflow: scroll;
     flex-direction: row;
@@ -481,6 +494,7 @@
     display: none;
   }
   .nav2 {
+    font-size: 12px;
     height: 44px;
     width: 100%;
     display: flex;
@@ -520,14 +534,18 @@
     font-weight: 600;
     margin-top: 450px;
   }
-  /* .bg4 {
-    display: none;
-  } */
 }
 
 /* --------------------------- */
-@media (min-width: 768px) {
-  
+@media (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .bg3 {
+    margin-top: 12px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1920px) {
   .bg3-grid-col {
@@ -582,13 +600,11 @@
     flex-direction: row;
   }
   .desktop-scroll {
-    margin-top: 12px;
     height: 668px;
     display: flex;
-    flex-direction: row;
     gap: 16px;
   }
-  .tab-scroll{
+  .tab-scroll {
     display: none;
   }
 }
