@@ -9,6 +9,10 @@
   align-items: center;
   text-align: center;
 }
+.all-margin {
+  margin-left: 140px;
+  margin-right: 140px;
+}
 .nav {
   font-size: 12px;
   height: 44px;
@@ -61,6 +65,7 @@
 }
 .header {
   display: flex;
+  justify-content: space-between;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -118,6 +123,7 @@
   gap: 12px;
   overflow: scroll;
   scrollbar-width: none;
+  justify-content: space-around;
 }
 .all-text {
   margin-top: 16px;
@@ -693,15 +699,22 @@
   font-size: 26px;
   font-weight: 700;
   margin-top: 60px;
+}
+.links-parent {
   display: flex;
   gap: 12px;
-  display: flex;
-  flex-direction: row;
 }
 .links {
+  border: 1px solid #1d1d1f;
+  border-radius: 999px;
+  padding: 10px 12px;
   margin-top: 24px;
   color: #1d1d1f;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+}
+.link-arrow-gap {
+  display: flex;
+  gap: 8px;
 }
