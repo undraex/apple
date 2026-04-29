@@ -30,6 +30,10 @@
   font-size: 12px;
   font-weight: 400;
 }
+.home-link {
+  display: flex;
+  cursor: pointer;
+}
 .header-text {
   color: #1d1d1f;
   text-align: center;
@@ -167,17 +171,21 @@
   margin-top: 30px;
   margin-left: 30px;
 }
+.ai sup {
+  font-size: 8px;
+}
 .ip16 {
   color: #1d1d1f;
   font-size: 26px;
   font-weight: 700;
   margin-top: 9px;
+  margin-left: 30px;
 }
 .ip16-text {
   color: #1d1d1f;
   font-size: 18px;
   font-weight: 400;
-  margin-top: 12x;
+  margin-top: 12px;
   margin-left: 30px;
 }
 .cont1-2 {
@@ -209,6 +217,22 @@
   height: 500px;
   border-radius: 8%;
   margin-top: 24px;
+}
+.cont1-3 .ipad,
+.cont1-4 .ipad {
+  color: #1d1d1f;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 9px;
+  margin-left: 30px;
+}
+.cont1-3 .ipad-text,
+.cont1-4 .ipad-text {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-left: 30px;
 }
 .cont1-4 {
   background-image: url(./cont1-mac.jpg);
@@ -524,6 +548,17 @@
   flex-direction: row;
   gap: 20px;
 }
+.cont5-1,
+.cont5-2,
+.cont5-3,
+.cont5-4,
+.cont6-1,
+.cont6-2,
+.cont6-3,
+.cont6-4,
+.cont6-5 {
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
 .cont5-1 {
   background-image: url(./cont5-1.png);
   min-width: 480px;
@@ -703,6 +738,7 @@
 .links-parent {
   display: flex;
   gap: 12px;
+  margin-bottom: 80px;
 }
 .links {
   border: 1px solid #1d1d1f;

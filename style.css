@@ -22,6 +22,11 @@
 .applelogo {
   margin-left: 16px;
 }
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
 .ssm {
   display: flex;
   justify-content: space-around;
@@ -121,6 +126,7 @@
 
 .bg3 {
   background-image: url(./bg3.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -148,13 +154,14 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 270px;
+  margin-top: 350px;
 }
 .nemelt {
   display: none;
 }
 .bg4 {
   background-image: url(./bg4.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -175,7 +182,7 @@
   margin: 8px;
 }
 .others3 {
-  margin-top: 220px;
+  margin-top: 350px;
 }
 
 @media (min-width: 768px) {
@@ -183,6 +190,7 @@
 
 .bg5 {
   background-image: url(./bg5.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -215,6 +223,7 @@
 }
 .bg6 {
   background-image: url(./bg6.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -234,6 +243,7 @@
 }
 .bg7 {
   background-image: url(./bg7.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -256,6 +266,7 @@
 }
 .bg8 {
   background-image: url(./bg8.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -290,6 +301,7 @@
 }
 .bg9 {
   background-image: url(./bg9.png);
+  background-color: #f5f5f7;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -333,6 +345,54 @@
   font-size: 14px;
   padding: 8px 16px;
 }
+.bg10 {
+  background-image: url(./card.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.bg10-garchig {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 46px;
+}
+.card {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+}
+.card-text {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+  width: 285px;
+  margin-top: 4px;
+}
+.card-button {
+  width: 110px;
+  height: 36px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.card-button2 {
+  width: 112px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid #0071e3;
+}
+.card-b1-text {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+.card-b2-text {
+  color: #0071e3;
+  font-size: 14px;
+  padding: 8px 16px;
+}
 .scroll {
   margin-top: 12px;
   width: 100%;
@@ -355,58 +415,110 @@
   margin-top: 12px;
   display: flex;
   flex-direction: column;
-  overflow-x: scroll;
-  gap: 6px;
+  overflow: hidden;
+  gap: 10px;
+  padding-bottom: 16px;
 }
 .sec {
+  width: 100%;
   display: flex;
-  min-width: 238px;
-  gap: 10px;
+  gap: 16px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.sec::-webkit-scrollbar {
+  display: none;
+}
+.footer-card {
+  width: 417px;
+  height: 236px;
+  flex: 0 0 417px;
+  position: relative;
+  overflow: hidden;
+  background: #111820;
 }
 .logosize {
-  width: 238px;
-  height: 134pxx;
-  display: flex;
-  gap: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
-
-/* .music {
-  width: 41px;
-  height: 9.67px;
-  margin-top: 100px;
-} */
 .bck2 {
-  background-color: #ba62fc;
-  width: 238px;
-  height: 134px;
+  background: #17222c;
 }
 .bck3 {
-  background-color: #55a5d4;
-  width: 238px;
-  height: 134px;
+  background: #132118;
 }
 .bck4 {
-  background-color: #ba62fc;
-  width: 238px;
-  height: 134px;
+  background: #3a2a1e;
 }
 .bck5 {
-  background-color: #ba62fc;
-  width: 238px;
-  height: 134px;
+  background: #f4b083;
 }
-.end {
+.footer-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.footer-title {
+  position: absolute;
+  left: 12px;
+  bottom: 20px;
+  color: #fff;
   font-size: 12px;
   font-weight: 700;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
+}
+.footer-brand {
+  position: absolute;
+  right: 14px;
+  bottom: 19px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.music-brand {
+  top: 22px;
+  bottom: auto;
+}
+.rnb-title {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  color: #25c5df;
+  font-size: 28px;
+  line-height: 0.85;
+  font-weight: 800;
+}
+.album-cover {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  left: 78px;
+  top: 32px;
+  object-fit: cover;
+}
+.music-logo {
+  width: 41px;
+  height: 10px;
+  position: absolute;
+  right: 18px;
+  bottom: 20px;
+}
+.end {
+  display: none;
 }
 .p-button {
   width: 24px;
   height: 24px;
-  position: relative;
-  right: 0;
+  align-self: flex-end;
+  margin-right: 14px;
+}
+.p-button img {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
 .end2 {
   width: 100%;
@@ -537,7 +649,7 @@
 }
 
 /* --------------------------- */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .grid-container {
     display: flex;
     flex-direction: column;
@@ -547,14 +659,97 @@
     margin-top: 12px;
   }
 }
-@media (min-width: 768px) and (max-width: 1920px) {
-  .bg3-grid-col {
-    grid-column: 1 / span 2;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 12px;
+    background: #fff;
+    box-sizing: border-box;
   }
-}
-@media (max-width: 1920px) {
+  .bg3,
+  .bg4,
+  .bg5,
+  .bg6,
+  .bg7,
+  .bg8,
+  .bg9 {
+    height: 500px;
+    margin-top: 0;
+    background-color: #f5f5f7;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  .bg3 {
+    grid-column: 1 / -1;
+    height: 650px;
+    background-image: url(./bg3-2.png);
+    background-position: center;
+  }
+  .hello {
+    margin-top: 410px;
+  }
+  .bg4 {
+    background-image: url(./bg4.png);
+    background-position: center;
+  }
+  .bg5 {
+    background-image: url(./bg5.png);
+  }
+  .bg6 {
+    background-image: url(./bg6.png);
+  }
+  .bg7 {
+    background-image: url(./bg7.png);
+  }
+  .bg8 {
+    background-image: url(./bg8.png);
+  }
+  .bg9 {
+    background-image: url(./bg9.png);
+  }
   .bg10 {
     display: none;
+  }
+  .others3 {
+    margin-top: 300px;
+  }
+  .airpod-text {
+    width: 260px;
+    height: auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .p5-garchig {
+    margin-top: 46px;
+  }
+  .mac {
+    margin-top: 48px;
+  }
+  .bussiness {
+    margin-top: 48px;
+  }
+  .deals {
+    margin-top: 300px;
+  }
+  .p9-garchig {
+    margin-top: 48px;
+  }
+  .button-deal {
+    width: 126px;
+  }
+  .button-trade {
+    width: 132px;
+  }
+  .trade-text {
+    font-size: 0;
+    padding: 8px 0;
+    justify-content: center;
+  }
+  .trade-text::after {
+    content: "Get your estimate";
+    font-size: 12px;
   }
 }
 @media (min-width: 1920px) {
@@ -588,16 +783,10 @@
     background-image: url(./trade2.png);
   }
   .bg10 {
-    background-image: url(./card.png);
     height: 580px;
-    flex-direction: column;
   }
   .card {
-    color: #000;
     font-size: 32px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: row;
   }
   .desktop-scroll {
     height: 668px;
